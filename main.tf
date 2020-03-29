@@ -1,12 +1,4 @@
-terraform {
-  backend "s3" {}
-}
-
-provider "aws" {
-  region  = var.region
-  version = "~> 2.54.0"
-}
-
 module "ec2" {
-  source = "github.com/wasanthag/tf-module-test"
+  source  = "app.terraform.io/wwtmulticloud/ec2/aws"
+  version = "1.0.1"
 }
