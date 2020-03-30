@@ -4,5 +4,5 @@ module "ec2" {
   ami_id = var.ami_id
   region = var.region
   inst_type = var.inst_type
-  version = "1.0.1"
+  version = "1.0.2"
 }
