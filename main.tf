@@ -1,4 +1,4 @@
-module "ec2" {
+module "wwtec2" {
   source  = "app.terraform.io/wwtmulticloud/wwtec2/aws"
   version = "1.0.6"
 }
